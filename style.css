@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #15db2c;
+}
+body{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+h1{
+    margin: 15px 70px;
+    font-size: 45px;
+}
+header div h2 {
+    margin: 50px 200px 0px 100px;
+    font-size: 35px;
+}
+section div h2 {
+    margin-top: 8px;
+    margin-left: 12px;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+    justify-content: space-between;
+}
+header nav li a{
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.container, section .container{
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+header {
+    font-family: "Seymour One", sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+section .container{
+    align-items: flex-start;
+}
+.social-links a{
+    text-decoration: none;
+}
+#contact .container{
+    display: block;
+}
+form input, form textarea, form button{
+    margin:12px 0px 0px 35px;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+footer{
+    margin-left: 32px;
+    color: #010607;
+    padding: 16px 0;
+}
+.social-links img{
+    height: 24px;
+}
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+.social-links a{
+    text-decoration: none;
+}
+form button{
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: #1900ff;
+}
+input:focus, textarea:focus{
+    outline-color:#0b6935
+}
+section div p{
+    margin-right: 12px;
+    padding-top: 12px;
+    font-style: italic;
+    font-size: large;
+}
+
+
